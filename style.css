@@ -1,0 +1,55 @@
+body {
+    background: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post {
+    display: inline-block;
+    align-content: center;
+    background-color: white;
+    margin: 50px 500px;
+}
+
+.post-header {
+    display: flex;
+}
+
+.post-header-icon {
+    margin: 15px;
+    justify-content: left;
+}
+
+.post-header-header {
+    font-size: 15px;
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+div .post-header-header h1{
+    font-size: 15px;
+    margin: 0;
+    margin-top: 12px;
+}
+div .post-header-header p{
+    font-size: 15px;
+    margin: 0;
+}
+
+.post-header-pirrot {
+    margin: 15px;
+    justify-content: right;
+}
+
+.post-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.text-body {
+    margin: 15px;
+
+}
